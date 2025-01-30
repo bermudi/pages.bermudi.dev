@@ -8,10 +8,10 @@ export interface PricingPlan {
 
 export const pricingPlans: PricingPlan[] = [
   {
-    name: "Basic Web Design",
-    description: "Essential and professional web design",
-    price: 6500,
-    features: [
+    "name": "Basic Web Design",
+    "description": "Essential and professional web design",
+    "price": 799,
+    "features": [
       "Modern and clean web design",
       "Corporate color palette",
       "Professional typography",
@@ -21,10 +21,10 @@ export const pricingPlans: PricingPlan[] = [
     ]
   },
   {
-    name: "Advanced Web Design",
-    description: "Advanced and distinctive web design",
-    price: 12500,
-    features: [
+    "name": "Advanced Web Design",
+    "description": "Advanced and distinctive web design",
+    "price": 1499,
+    "features": [
       "Custom premium web design",
       "Unique visual identity",
       "Elegant animations and transitions",
@@ -34,10 +34,10 @@ export const pricingPlans: PricingPlan[] = [
     ]
   },
   {
-    name: "Immersive Web Design",
-    description: "Exclusive high-end web design",
-    price: 25000,
-    features: [
+    "name": "Immersive Web Design",
+    "description": "Exclusive high-end web design",
+    "price": 2999,
+    "features": [
       "Totally unique luxury web design",
       "Integrated complete branding",
       "Custom micro-interactions",

@@ -19,13 +19,12 @@ export const categories = [
   "Utilities & Tools"
 ] as const;
 
-
 export const addons: Addon[] = [
   // Content Management
   {
     name: "Static Website Package",
     category: "Content Management",
-    price: 2500,
+    price: 299,
     description: "Simple and efficient solution for static websites",
     features: [
       "Simple management of 2-6 pages",
@@ -37,7 +36,7 @@ export const addons: Addon[] = [
   {
     name: "Dynamic Website Package",
     category: "Content Management",
-    price: 8500,
+    price: 1099,
     description: "Complete solution for dynamic websites",
     features: [
       "Advanced content management",
@@ -50,7 +49,7 @@ export const addons: Addon[] = [
   {
     name: "Basic Blog Package",
     category: "Content Management",
-    price: 3500,
+    price: 399,
     description: "Professional blogging platform",
     features: [
       "Post management",
@@ -64,7 +63,7 @@ export const addons: Addon[] = [
   {
     name: "Advanced Blog Package",
     category: "Content Management",
-    price: 6800,
+    price: 899,
     description: "Professional blog with advanced features",
     features: [
       "All Basic Blog Package features",
@@ -79,7 +78,7 @@ export const addons: Addon[] = [
   {
     name: "Real Estate Website Package",
     category: "Content Management",
-    price: 12000,
+    price: 1499,
     description: "Specialized platform for real estate agencies",
     features: [
       "Property listing management",
@@ -93,7 +92,7 @@ export const addons: Addon[] = [
   {
     name: "Forum Package",
     category: "Community & Social",
-    price: 7500,
+    price: 899,
     description: "Discussion and community platform",
     features: [
       "User registration and profiles",
@@ -106,7 +105,7 @@ export const addons: Addon[] = [
   {
     name: "Social Network Package",
     category: "Community & Social",
-    price: 15000,
+    price: 1899,
     description: "Custom social network platform",
     features: [
       "User profiles and connections",
@@ -119,7 +118,7 @@ export const addons: Addon[] = [
   {
     name: "Wiki Package",
     category: "Community & Social",
-    price: 6500,
+    price: 799,
     description: "Collaborative knowledge management system",
     features: [
       "Collaborative content creation",
@@ -133,7 +132,7 @@ export const addons: Addon[] = [
   {
     name: "Basic Online Store Package",
     category: "E-commerce",
-    price: 9500,
+    price: 1199,
     description: "Basic e-commerce solution",
     features: [
       "Product catalog",
@@ -146,7 +145,7 @@ export const addons: Addon[] = [
   {
     name: "Advanced E-commerce Package",
     category: "E-commerce",
-    price: 18000,
+    price: 2299,
     description: "Complete e-commerce solution",
     features: [
       "All Basic Online Store Package features",
@@ -160,7 +159,7 @@ export const addons: Addon[] = [
   {
     name: "Digital Downloads Store",
     category: "E-commerce",
-    price: 12500,
+    price: 1599,
     description: "Specialized platform for digital products",
     features: [
       "Digital product management",
@@ -172,7 +171,7 @@ export const addons: Addon[] = [
   {
     name: "Marketplace Package",
     category: "E-commerce",
-    price: 25000,
+    price: 3099,
     description: "Multi-vendor marketplace platform",
     features: [
       "Multi-vendor support",
@@ -184,7 +183,7 @@ export const addons: Addon[] = [
   {
     name: "Auction Website Package",
     category: "E-commerce",
-    price: 28000,
+    price: 3499,
     description: "Online auction platform",
     features: [
       "Bidding system",
@@ -197,7 +196,7 @@ export const addons: Addon[] = [
   {
     name: "Customer Relationship Management (CRM) Package",
     category: "Business Management",
-    price: 15000,
+    price: 1899,
     description: "Comprehensive customer relationship management system",
     features: [
       "Contact management",
@@ -210,7 +209,7 @@ export const addons: Addon[] = [
   {
     name: "Enterprise Resource Planning (ERP) Package",
     category: "Business Management",
-    price: 35000,
+    price: 4399,
     description: "Complete business management system",
     features: [
       "Accounting and financial management",
@@ -223,7 +222,7 @@ export const addons: Addon[] = [
   {
     name: "Human Resources Management Package",
     category: "Business Management",
-    price: 18000,
+    price: 2299,
     description: "Specialized HR management system",
     features: [
       "Employee database",
@@ -236,7 +235,7 @@ export const addons: Addon[] = [
   {
     name: "Project Management Package",
     category: "Business Management",
-    price: 12000,
+    price: 1499,
     description: "Complete project management tool",
     features: [
       "Task and subtask management",
@@ -249,7 +248,7 @@ export const addons: Addon[] = [
   {
     name: "Inventory Management Package",
     category: "Business Management",
-    price: 14000,
+    price: 1799,
     description: "Inventory control and management system",
     features: [
       "Stock tracking",
@@ -262,13 +261,13 @@ export const addons: Addon[] = [
   // Customer Service
   {
     name: "Help Desk Package",
-    category: "Customer Service", 
-    price: 11000,
+    category: "Customer Service",
+    price: 1399,
     description: "Professional customer support system",
     features: [
       "Ticket management system",
       "Knowledge base",
-      "FAQ section", 
+      "FAQ section",
       "Customer portal",
       "SLA management"
     ]
@@ -276,7 +275,7 @@ export const addons: Addon[] = [
   {
     name: "Live Chat Package",
     category: "Customer Service",
-    price: 7500,
+    price: 899,
     description: "Real-time chat solution for customer service",
     features: [
       "Real-time chat widget",
@@ -289,7 +288,7 @@ export const addons: Addon[] = [
   {
     name: "Customer Feedback and Survey Package",
     category: "Customer Service",
-    price: 6000,
+    price: 799,
     description: "Customer survey and feedback system",
     features: [
       "Survey creation and management",
@@ -302,7 +301,7 @@ export const addons: Addon[] = [
   {
     name: "Learning Management System (LMS) Package",
     category: "Educational",
-    price: 16000,
+    price: 1999,
     description: "Complete online learning platform",
     features: [
       "Course creation and management",
@@ -315,7 +314,7 @@ export const addons: Addon[] = [
   {
     name: "School Management System Package",
     category: "Educational",
-    price: 22000,
+    price: 2799,
     description: "Comprehensive school management system",
     features: [
       "Student information management",
@@ -328,7 +327,7 @@ export const addons: Addon[] = [
   {
     name: "Online Examination System Package",
     category: "Educational",
-    price: 9500,
+    price: 1199,
     description: "Specialized online assessment platform",
     features: [
       "Exam creation and scheduling",
@@ -342,7 +341,7 @@ export const addons: Addon[] = [
   {
     name: "Photo Gallery Package",
     category: "Media Management",
-    price: 5500,
+    price: 699,
     description: "Professional image management system",
     features: [
       "Album organization",
@@ -355,7 +354,7 @@ export const addons: Addon[] = [
   {
     name: "Video Platform Package",
     category: "Media Management",
-    price: 13500,
+    price: 1699,
     description: "Complete video management platform",
     features: [
       "Video hosting and streaming",
@@ -368,7 +367,7 @@ export const addons: Addon[] = [
   {
     name: "Podcast Management Package",
     category: "Media Management",
-    price: 8500,
+    price: 1099,
     description: "Specialized podcast management system",
     features: [
       "Episode management",
@@ -381,7 +380,7 @@ export const addons: Addon[] = [
   {
     name: "Digital Asset Management Package",
     category: "Media Management",
-    price: 11000,
+    price: 1399,
     description: "Centralized digital asset management system",
     features: [
       "Centralized media library",
@@ -391,11 +390,11 @@ export const addons: Addon[] = [
       "Integration with other systems"
     ]
   },
-  // Comunicación
+  // Communication
   {
     name: "Email Management Package",
     category: "Communication",
-    price: 1000,
+    price: 99,
     description: "Email setup and administration in Zoho/Google Workspace/Outlook",
     features: [
       "You pay your annual subscription",
@@ -410,7 +409,7 @@ export const addons: Addon[] = [
   {
     name: "Advanced Email Package",
     category: "Communication",
-    price: 9500,
+    price: 1199,
     description: "Private and customized email service",
     features: [
       "100 GB email storage",
@@ -424,7 +423,7 @@ export const addons: Addon[] = [
   {
     name: "Email Marketing Package",
     category: "Communication",
-    price: 8500,
+    price: 1099,
     description: "Professional email marketing system",
     features: [
       "Mailing list management",
@@ -437,7 +436,7 @@ export const addons: Addon[] = [
   {
     name: "Newsletter System Package",
     category: "Communication",
-    price: 5500,
+    price: 699,
     description: "Newsletter management system",
     features: [
       "Subscriber management",
@@ -449,7 +448,7 @@ export const addons: Addon[] = [
   {
     name: "Internal Communication Package",
     category: "Communication",
-    price: 9500,
+    price: 1199,
     description: "Internal business communication platform",
     features: [
       "Company news and announcements",
@@ -463,7 +462,7 @@ export const addons: Addon[] = [
   {
     name: "Appointment Booking Package",
     category: "Specialized Solutions",
-    price: 7500,
+    price: 899,
     description: "Appointment scheduling and management system",
     features: [
       "Online scheduling system",
@@ -476,7 +475,7 @@ export const addons: Addon[] = [
   {
     name: "Event Management Package",
     category: "Specialized Solutions",
-    price: 12500,
+    price: 1599,
     description: "Complete event management platform",
     features: [
       "Event creation and ticket sales",
@@ -489,7 +488,7 @@ export const addons: Addon[] = [
   {
     name: "Membership Management Package",
     category: "Specialized Solutions",
-    price: 9500,
+    price: 1199,
     description: "Member and subscription management system",
     features: [
       "Member registration and profiles",
@@ -502,7 +501,7 @@ export const addons: Addon[] = [
   {
     name: "Classified Ads Package",
     category: "Specialized Solutions",
-    price: 11000,
+    price: 1399,
     description: "Online classified ads platform",
     features: [
       "Ad publishing and management",
@@ -515,7 +514,7 @@ export const addons: Addon[] = [
   {
     name: "Job Board Package",
     category: "Specialized Solutions",
-    price: 13500,
+    price: 1699,
     description: "Job portal and candidate management",
     features: [
       "Job posting management",
@@ -528,7 +527,7 @@ export const addons: Addon[] = [
   {
     name: "Restaurant Management Package",
     category: "Specialized Solutions",
-    price: 14500,
+    price: 1799,
     description: "Comprehensive restaurant management system",
     features: [
       "Menu management",
@@ -541,7 +540,7 @@ export const addons: Addon[] = [
   {
     name: "Church Management Package",
     category: "Specialized Solutions",
-    price: 8500,
+    price: 1099,
     description: "Specialized church management system",
     features: [
       "Member database",
@@ -554,7 +553,7 @@ export const addons: Addon[] = [
   {
     name: "Library Management System Package",
     category: "Specialized Solutions",
-    price: 11500,
+    price: 1399,
     description: "Complete library management system",
     features: [
       "Book catalog",
@@ -567,7 +566,7 @@ export const addons: Addon[] = [
   {
     name: "Medical Practice Management Package",
     category: "Specialized Solutions",
-    price: 18500,
+    price: 2299,
     description: "Specialized system for medical practices",
     features: [
       "Patient records management",
@@ -581,7 +580,7 @@ export const addons: Addon[] = [
   {
     name: "SEO Tools Package",
     category: "Utilities & Tools",
-    price: 7500,
+    price: 899,
     description: "Complete suite of SEO tools",
     features: [
       "Keyword research",
@@ -594,7 +593,7 @@ export const addons: Addon[] = [
   {
     name: "Analytics and Reporting Package",
     category: "Utilities & Tools",
-    price: 8500,
+    price: 1099,
     description: "Advanced analytics and reporting system",
     features: [
       "Web traffic analysis",
@@ -607,7 +606,7 @@ export const addons: Addon[] = [
   {
     name: "Form Builder Package",
     category: "Utilities & Tools",
-    price: 5500,
+    price: 699,
     description: "Professional form creation tool",
     features: [
       "Drag and drop form creation",
@@ -620,7 +619,7 @@ export const addons: Addon[] = [
   {
     name: "Document Management Package",
     category: "Utilities & Tools",
-    price: 9500,
+    price: 1199,
     description: "Complete document management system",
     features: [
       "File storage and organization",
@@ -633,7 +632,7 @@ export const addons: Addon[] = [
   {
     name: "Backup and Security Package",
     category: "Utilities & Tools",
-    price: 11500,
+    price: 1399,
     description: "Comprehensive security and backup system",
     features: [
       "Automated backups",
