@@ -36,7 +36,7 @@ export const addons: Addon[] = [
   {
     name: "Dynamic Website Package",
     category: "Content Management",
-    price: 1099,
+    price: 999,
     description: "Complete solution for dynamic websites",
     features: [
       "Advanced content management",

@@ -9,12 +9,12 @@ const projects = [
       small: "/images/projects/project-1-400.webp",
       large: "/images/projects/project-1-800.webp"
     },
-    link: "https://lasfresas.paginasweb-pro.com/",
+    link: "https://lasfresas.bermudi.dev/c",
     schema: {
       "@type": "WebSite",
       "name": "Plataforma de comercio electrónico",
       "description": "Tienda online moderna con una experiencia de compra fluida",
-      "url": "https://lasfresas.paginasweb-pro.com/"
+      "url": "https://lasfresas.bermudi.dev/"
     }
   },
   {
@@ -39,12 +39,12 @@ const projects = [
       small: "/images/projects/project-3-400.webp",
       large: "/images/projects/project-3-800.webp"
     },
-    link: "https://respirahh.paginasweb-pro.com/",
+    link: "https://respira.bermudi.dev/",
     schema: {
       "@type": "WebApplication",
       "name": "Aplicación web",
       "description": "Aplicación web completa con funciones en tiempo real",
-      "url": "https://respirahh.paginasweb-pro.com/"
+      "url": "https://respira.bermudi.dev/"
     }
   },
 ];

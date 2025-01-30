@@ -303,13 +303,13 @@ ${formData.message}`;
               </svg>
               <span className="hidden md:inline">Send WhatsApp</span>
             </motion.button>
-            <motion.a
+            {/* <motion.a
               href="tel:+524428908205"
               className="aspect-square md:aspect-auto md:flex-1 bg-blue-500 text-white p-3 md:px-6 md:py-3 rounded-lg font-medium flex items-center justify-center gap-2 hover:bg-blue-600 transition-colors"
             >
               <Phone className="w-5 h-5" />
               <span className="hidden md:inline">Call</span>
-            </motion.a>
+            </motion.a> */}
           </motion.div>
         </motion.form>
       </div>
