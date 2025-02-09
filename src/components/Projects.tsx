@@ -12,8 +12,8 @@ const projects = [
     link: "https://lasfresas.bermudi.dev/c",
     schema: {
       "@type": "WebSite",
-      "name": "Plataforma de comercio electrónico",
-      "description": "Tienda online moderna con una experiencia de compra fluida",
+      "name": "E-commerce Platform",
+      "description": "Modern online store with a smooth shopping experience",
       "url": "https://lasfresas.bermudi.dev/"
     }
   },
@@ -27,8 +27,8 @@ const projects = [
     link: "https://qroseguro.com/",
     schema: {
       "@type": "WebSite",
-      "name": "Sitio web de empresa",
-      "description": "Sitio web corporativo con integración de CMS personalizado",
+      "name": "Corporate Website",
+      "description": "Corporate website with custom CMS integration",
       "url": "https://qroseguro.com/"
     }
   },
@@ -42,8 +42,8 @@ const projects = [
     link: "https://respira.bermudi.dev/",
     schema: {
       "@type": "WebApplication",
-      "name": "Aplicación web",
-      "description": "Aplicación web completa con funciones en tiempo real",
+      "name": "Web Application",
+      "description": "Complete web application with real-time features",
       "url": "https://respira.bermudi.dev/"
     }
   },

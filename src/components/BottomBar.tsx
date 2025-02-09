@@ -52,13 +52,13 @@ export const BottomBar = ({ selectedPackage, selectedAddons }: BottomBarProps) =
           <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4">
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-xs sm:text-sm text-primary/60">
-                {selectedAddons.length} complemento{selectedAddons.length !== 1 ? 's' : ''} seleccionado{selectedAddons.length !== 1 ? 's' : ''}
+                {selectedAddons.length} Add-on{selectedAddons.length !== 1 ? 's' : ''} seleccionado{selectedAddons.length !== 1 ? 's' : ''}
               </span>
               {selectedPackage && (
                 <>
                   <span className="text-primary/60 hidden sm:inline">•</span>
                   <span className="text-xs sm:text-sm text-primary/60">
-                    Paquete: {selectedPackage}
+                    Bundle: {selectedPackage}
                   </span>
                 </>
               )}

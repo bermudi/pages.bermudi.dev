@@ -163,7 +163,7 @@ export const Addons = ({ onAddonsChange, id }: AddonsProps) => {
                     <p className="text-primary/80 mb-4">{addon.description}</p>
                     <div className="flex items-baseline mb-4">
                       <span className="text-2xl font-bold">${addon.price.toLocaleString()}</span>
-                      <span className="text-primary/60 ml-2">/complemento</span>
+                      <span className="text-primary/60 ml-2">/add-on</span>
                     </div>
                     <ul className="space-y-2 flex-grow pb-4">
                       {addon.features.map((feature, featureIndex) => (
@@ -186,12 +186,12 @@ export const Addons = ({ onAddonsChange, id }: AddonsProps) => {
                       {selectedAddons.includes(addon.name) ? (
                         <>
                           <Check className="w-4 h-4" />
-                          Seleccionado
+                          Selected
                         </>
                       ) : (
                         <>
                           <Plus className="w-4 h-4" />
-                          Agregar
+                          Add
                         </>
                       )}
                     </motion.button>
