@@ -48,12 +48,12 @@ export const Contact = ({ selectedPackage = "", selectedAddons = [] }: ContactPr
           email: formData.email,
           message: `${selectedPackage && selectedPackage !== "" ? `
 Package: ${selectedPackage}
-Price: $${pricingPlans.find(p => p.name === selectedPackage)?.price.toLocaleString()} MXN
+Price: $${pricingPlans.find(p => p.name === selectedPackage)?.price.toLocaleString()} USD
 
 ${selectedAddons.length > 0 ? `Addons:
 ${selectedAddons.map(addon => {
   const addonData = addons.find(a => a.name === addon);
-  return `- ${addon}: $${addonData?.price.toLocaleString()} MXN`;
+  return `- ${addon}: $${addonData?.price.toLocaleString()} USD`;
 }).join('\n')}
 
 ` : ''}Total: $${(
@@ -62,7 +62,7 @@ ${selectedAddons.map(addon => {
     const addon = addons.find(a => a.name === addonName);
     return total + (addon?.price || 0);
   }, 0)
-).toLocaleString()} MXN
+).toLocaleString()} USD
 
 ` : ''}Message:
 ${formData.message}`,
@@ -88,13 +88,13 @@ ${formData.message}`,
   const handleWhatsAppClick = () => {
     const packageInfo = selectedPackage ? `
 Package: ${selectedPackage}
-Price: $${pricingPlans.find(p => p.name === selectedPackage)?.price.toLocaleString()} MXN` : '';
+Price: $${pricingPlans.find(p => p.name === selectedPackage)?.price.toLocaleString()} USD` : '';
 
     const addonsInfo = selectedAddons.length > 0 ? `
 Addons:
 ${selectedAddons.map(addon => {
   const addonData = addons.find(a => a.name === addon);
-  return `- ${addon}: $${addonData?.price.toLocaleString()} MXN`;
+  return `- ${addon}: $${addonData?.price.toLocaleString()} USD`;
 }).join('\n')}` : '';
 
     const total = selectedPackage ? `
@@ -104,7 +104,7 @@ Total: $${(
     const addon = addons.find(a => a.name === addonName);
     return total + (addon?.price || 0);
   }, 0)
-).toLocaleString()} MXN` : '';
+).toLocaleString()} USD` : '';
 
     const message = `Hi, my name is ${formData.name}
 Email: ${formData.email}
@@ -164,7 +164,7 @@ ${formData.message}`;
                 <div className="flex items-center justify-between mb-2">
                   <span className="font-medium">Selected Package:</span>
                   <span className="font-semibold">
-                    ${pricingPlans.find(p => p.name === selectedPackage)?.price.toLocaleString()} MXN
+                    ${pricingPlans.find(p => p.name === selectedPackage)?.price.toLocaleString()} USD
                   </span>
                 </div>
                 <span className="px-3 py-1 rounded-full bg-accent/20 text-sm">
@@ -180,7 +180,7 @@ ${formData.message}`;
                     ${selectedAddons.reduce((total, addonName) => {
                       const addon = addons.find(a => a.name === addonName);
                       return total + (addon?.price || 0);
-                    }, 0).toLocaleString()} MXN
+                    }, 0).toLocaleString()} USD
                   </span>
                 </div>
                 <div className="mt-2 flex flex-wrap gap-2">
@@ -206,7 +206,7 @@ ${formData.message}`;
                         const addon = addons.find(a => a.name === addonName);
                         return total + (addon?.price || 0);
                       }, 0)
-                    ).toLocaleString()} MXN
+                    ).toLocaleString()} USD
                   </span>
                 </div>
               </div>
