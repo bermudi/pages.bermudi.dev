@@ -9,7 +9,7 @@ const projects = [
       small: "/images/projects/project-1-400.webp",
       large: "/images/projects/project-1-800.webp"
     },
-    link: "https://lasfresas.bermudi.dev/c",
+    link: "https://lasfresas.bermudi.dev/",
     schema: {
       "@type": "WebSite",
       "name": "E-commerce Platform",
